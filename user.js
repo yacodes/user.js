@@ -1,10 +1,14 @@
-/**
- * Use our own stylesheets
- */
+/** Use our own stylesheets */
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("layers.acceleration.force-enabled", true);
 user_pref("gfx.webrender.all", true);
 user_pref("svg.context-properties.content.enabled", true);
+
+/** Disable annoying fullscreen animations */
+user_pref("full-screen-api.transition-duration.enter", "0 0");
+user_pref("full-screen-api.transition-duration.leave", "0 0");
+user_pref("toolkit.cosmeticAnimations.enabled", false);
+user_pref("ui.prefersReducedMotion", 1);
 
 // Firefox hardening using preferences (automated)
 user_pref("app.normandy.first_run", false);
