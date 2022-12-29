@@ -10,6 +10,9 @@ user_pref("full-screen-api.transition-duration.leave", "0 0");
 user_pref("toolkit.cosmeticAnimations.enabled", false);
 user_pref("ui.prefersReducedMotion", 1);
 
+user_pref("browser.compactmode.show", true);
+user_pref("browser.uidensity", 1);
+
 // Firefox hardening using preferences (automated)
 user_pref("app.normandy.first_run", false);
 user_pref("app.shield.optoutstudies.enabled", false);
